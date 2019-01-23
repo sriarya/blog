@@ -1,0 +1,36 @@
+.imgcontainer{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.cimg img{
+	width:200px;
+	height:293px;
+	margin:10px;
+
+}
+.cimg:hover{
+	cursor: pointer;
+	 background-color:rgb(211,211,211);
+	 filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(0.6); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(0.6); 
+}
+
+#cherries{
+	width:293px;
+	height:293px;
+}
+@media screen and (max-width: 600px){
+	 .cimg img{
+	width:118px;
+	height:118px;
+	margin: 10px;
+}
+#cherries{
+	width:118px;
+	height:118px;
+	margin: 10px;
+}
+
+}

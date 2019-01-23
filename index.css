@@ -1,0 +1,364 @@
+  @font-face {
+font-family: 'Zapfino';
+font-style: normal;
+font-weight: normal;
+src: url(Zapfino.woff);
+}
+.page h1{
+	font-family:"Zapfino";
+	text-align: center;
+}
+.head .leaves{
+	position:absolute;
+	top:0%;
+	right:0%;
+	width:250px;
+	height:150px;
+}
+.navbar{
+	overflow:hidden;
+}
+.navbar .icon {
+display:none;
+}
+
+.navbar a{
+	float:left;
+	text-decoration:none;
+	margin-left:220px;
+	font-family: 'Coiny', cursive;
+	color:black;
+	font-size:25px;
+}
+@media screen and (max-width:600px){
+	.head .leaves{
+		max-width:20%;
+		height:auto;
+	}
+	.page h1{
+		height:100px;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 600px){
+	.navbar a.icon{
+		font-size: 30px;
+		margin-left: 10px;
+		display: block;
+	}
+	.navbar a{
+		display:none;
+	}
+}
+@media screen and (max-width:600px){
+	.navbar.responsive{
+		position:relative;
+	}
+	.navbar.responsive a.icon {
+    position:absolute;
+    left:0;
+    top:0;
+  }
+	.navbar.responsive  a.link{
+		float:none;
+		display:block;
+		text-align:left;
+		margin-left: 80px;
+		font-size: 20px;
+		background-color: rgb(211,211,211);
+		padding:10px;
+		box-sizing: border-box;
+	}
+	.navbar.responsive  a.link:hover{
+background-color: rgba(211,211,211,0.5);
+}
+}
+@media screen and (max-width:768px){
+	.head .leaves{
+		max-width:20%;
+		height:auto;
+	}
+	.page h1{
+		height:100px;
+		text-align: center;
+	}
+}
+@media screen and (max-width:768px){
+	.navbar a.icon{
+		font-size: 30px;
+		margin-left: 10px;
+		display: block;
+	}
+	.navbar a{
+		display:none;
+	}
+}
+@media screen and (max-width:768px){
+	.navbar.responsive{
+		position:relative;
+	}
+	.navbar.responsive a.icon {
+    position:absolute;
+    left:0;
+    top:0;
+  }
+	.navbar.responsive  a.link{
+		float:none;
+		display:block;
+		text-align:left;
+		margin-left: 80px;
+		font-size: 20px;
+		background-color: rgb(211,211,211);
+		padding:10px;
+		box-sizing: border-box;
+	}
+	.navbar.responsive  a.link:hover{
+background-color: rgba(211,211,211,0.5);
+}
+}
+/*remaining page after nav starts here*/
+.page .girl{
+	padding-top: 30px;
+	display:block;
+	margin:auto;
+	width:100%;
+}
+@media screen and(max-width:600px){
+.page .girl{
+max-width: 100%;
+	height:auto;
+}
+}
+@media screen and(max-width:768px){
+.page .girl{
+max-width: 100%;
+	height:auto;
+}
+}
+.page h2{
+	font-family: 'Coiny', cursive;
+	font-size: 3vw;
+	font-weight: lighter;
+	text-align: center;
+}
+/*if you want lines on either side of header*/
+	/*border-top:5px solid #000;
+	line-height: 0.01;
+	margin:40px 0 20px;
+	width:50%;
+
+}
+h2 span{
+	background:#fff;
+	padding:0px 20px;
+}
+*/
+/*Image dalignment*/
+.imgcontainer1{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.imgcontainer1 .cimg img{
+	width:293px;
+	height:293px;
+	margin:10px;
+	border-radius:10px;
+	border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+
+}
+.imgcontainer1 .cimg:hover{
+	cursor: pointer;
+	 background-color:rgb(211,211,211);
+	 filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(0.6); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(0.6); 
+}
+@media screen and (max-width: 600px){
+.imgcontainer1{
+	width:100%;
+	justify-content: center;
+	margin:0 auto;
+	align-items: stretch;
+}
+.imgcontainer1 .cimg img{
+	width:100px;
+	height:100px;
+	margin:2px;
+}
+}
+/*pencillust*/
+.imgcontainer2{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.imgcontainer2 .cimg img{
+	width:293px;
+	height:293px;
+	margin:10px;
+	border-radius:10px;
+	border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+}
+.imgcontainer2 .cimg:hover{
+	cursor: pointer;
+	 background-color:rgb(211,211,211);
+	 filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(0.6); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(0.6); 
+}
+@media screen and (max-width: 600px){
+.imgcontainer2{
+	width:100%;
+	justify-content: center;
+	margin:0 auto;
+	align-items: stretch;
+}
+.imgcontainer2 .cimg img{
+	width:100px;
+	height:100px;
+	margin:2px;
+}
+}
+/*travellouge*/
+.imgcontainer3{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.imgcontainer3 .cimg img{
+	width:293px;
+	height:293px;
+	margin:10px;
+	border-radius:10px;
+	border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+}
+.imgcontainer3 .cimg:hover{
+	cursor: pointer;
+	 background-color:rgb(211,211,211);
+	 filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(0.6); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(0.6); 
+}
+@media screen and (max-width: 600px){
+.imgcontainer3{
+	width:100%;
+	justify-content: center;
+	margin:0 auto;
+	align-items: stretch;
+}
+.imgcontainer3 .cimg img{
+	width:100px;
+	height:100px;
+	margin:2px;
+}
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modal-content {
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  max-height: 600px;
+}
+
+/*#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}*/
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+    max-height:460px;
+    margin:auto;
+  }
+}
+/*know me*/
+.fullprofile p{
+	font-family: 'Shadows Into Light', cursive;
+	font-size:23px;
+	text-align: center;
+	width:400px;
+	height:auto;
+	display:block;
+	margin: auto;
+	padding:20px;
+}
+.fullprofile #profile{
+	display:block;
+	margin: auto;
+	width:290px;
+	height:290px;
+	border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+	border-radius: 50%;
+}
+@media screen and (max-width:700px){
+.fullprofile #profile{
+	width:100px;
+	height:100px;
+}
+.fullprofile p{
+font-size:3vw;
+	}
+}
